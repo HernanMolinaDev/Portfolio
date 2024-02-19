@@ -1,9 +1,10 @@
 const Footer=()=>{
     return(
             <>
-            <footer>
-                <div className="div-Footer">
-                    <h1>Footer</h1>
+            <footer className="row">
+                <div className="div-Footer ">
+                    <h1 className="col-sm-6">Footer</h1>
+                    <p className="col-sm-6">algo</p>
                 </div>
             </footer>
             </>

@@ -1,0 +1,23 @@
+@mixin animation-move ($tx1,$tx2,$tx3) {
+    @keyframes move{
+    0%{
+        transform:translateX($tx1);
+    }
+
+    50%{
+        transform:translateX($tx2);
+    }
+    100%{
+        transform:translateX($tx3);
+    }
+
+}}
+
+@mixin animation-general ($aName,$aDuration, $aTiming, $aIteration) {
+    animation-name:$aName;
+    animation-duration: $aDuration;
+    animation-timing-function: $aTiming;
+    animation-iteration-count: $aIteration;
+}
+
+
