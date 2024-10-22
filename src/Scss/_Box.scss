@@ -31,13 +31,16 @@
 .div-box2 {
         text-align: center;
         background-color: $color4;
+        p{color: black; background-color: aliceblue; border-radius: 20px; font: $font2; }
         h1{
             color:$color2;
             font-family: $font1;
             text-decoration: solid;
+            text-align: center;
         }
         .card-project {
         margin: 30px;
+        img{width:15dvw; height: 15dvw;}
     
         button {
             padding-top: 3px;
@@ -46,6 +49,7 @@
             color: $color4;
         }
         }
+        
     }
 
 
